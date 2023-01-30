@@ -5,7 +5,11 @@ By Jules Lai
 
   
 
-This progress report highlights largely preparation work for the architecture of **Fabstir Web3 Media Player**. The architecture decisions are based from the need to keep manual intervention to a minimum by striving for an automatic pipeline from software changes to build to deployment of the Dapp to the cloud. Then managing this infrastructure automatically and by code. Ultimately should lead to better performance, cost savings and automatic scaling to meet whatever workload that is thrown at it.
+This progress report highlights largely preparation work for the architecture of **Fabstir Web3 Media Player**. The architecture decisions are based from the need to keep manual intervention to a minimum by striving for an automatic pipeline from software changes to build to deployment of the Dapp to the cloud. Then managing this infrastructure is automatic and done by code, without the need of a team of devops.
+
+Ultimately should lead to better performance, cost savings and automatic scaling to meet whatever workload that is thrown at it. There isn't a Web3 solution at the moment that can handle mainstream transcoding workloads. This report highlights an infrastructure that can grow to that.
+
+>  **Note:** There is a [glossary](#glossary) section towards the end for some of the technical words.
 
   
 
@@ -195,25 +199,9 @@ Fabstir Web3 Media Player's architecture will follow CI/CD (Continuous Integrati
 
 Argo CD has a GUI to view the actual status of the cluster. Deployment configuration changes are all version controlled in a separate GitHub (GitOps) repo to allow rollback of the deployed infrastructure by simply rolling back to a previous version in GitHub.
 
-Kustomize enables multiple instances of the cluster with minimal configuration files to enable development, staging and production instances. It also makes it easier to have multiple instances across different cloud providers, to enable Fabstir deployment to be more decentralised and scale to meet whatever the demands.
+Kustomize enables multiple instances of the cluster with minimal configuration files to enable development, staging and production instances. It also makes it easier to have multiple instances across different cloud providers, to enable Fabstir deployment to be more decentralised and automatically scale to meet any traffic demand.
 
-As just mentioned, with this architecture, Fabstir will be able to automatically scale to meet any traffic demand. It will embrace all the benefits of infrastructure by code (IaC) that include:
-
-  
-
-* Version control: IaC allows for infrastructure to be managed in a version control system, which allows for better collaboration and tracking of changes.
-
-* Reproducibility: IaC allows for the creation of repeatable and consistent infrastructure, which can be easily reproduced in different environments.
-
-* Automation: IaC allows for the automation of tasks such as provisioning, scaling, and deploying infrastructure, which can save time and reduce errors.
-
-* Scalability: IaC allows for the scaling of infrastructure resources in a more efficient and automated manner.
-
-* Cost Savings: IaC allows for efficient use of resources and reduces the need for manual labor, this leads to cost savings.
-
-* Improved security: IaC enables for clear visibility of infrastructure and make changes to increase security.
-
-* Disaster recovery: IaC allows to easily recover from a disaster by quickly rebuilding the infrastructure.
+The workflow for Fabstir will embrace all the benefits of infrastructure by code (IaC) that include version control, automatic scaling and deployment, cost savings, better health monitoring, improved security and simpler disaster recover. With the aim to make the architecture simple enough so that it requires only one person with some devops experience of Kubernetes and supporting tools to deploy the infrastructure.
     
 
 ## Appendix
