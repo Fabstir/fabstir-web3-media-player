@@ -14,8 +14,6 @@ Before I explain what I coded in Rust, I'll rewind a little bit.
 
 ![Fabstir cloud infrastructure](https://fabstir.com/files/reports/FabstirMediaPlayer_Infrastructure_d1b.jpg)
 
-It seems that the given text is already in good grammar, but here's a minor improvement to make it flow better:
-
 "This diagram may seem complicated, but it represents Fabstir Media Player's network cloud computing Kubernetes[^Kubernetes] infrastructure designed to handle thousands of users. It is divided into two main clusters:
 
 -   The Akash Network cluster consists of decentralized computer nodes that run the Fabstir Media Player Dapp.
