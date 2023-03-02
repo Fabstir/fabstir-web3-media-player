@@ -17,7 +17,7 @@ Before I explain what I coded in Rust, I'll rewind a little bit.
 "This diagram may seem complicated, but it represents Fabstir Media Player's network cloud computing Kubernetes[^Kubernetes] infrastructure designed to handle thousands of users. It is divided into two main clusters:
 
 -   The Akash Network cluster consists of decentralized computer nodes that run the Fabstir Media Player Dapp.
--   The other cluster is responsible for transcoding videos and music into various formats to enable smooth playback, regardless of the end-users' device's bitrate or screen resolution.
+-   The other cluster is responsible for transcoding videos and music into various formats to enable smooth playback, regardless of the end-users' device's bitrate or screen resolution. When in live production, this will be a group of clusters one per GPU cloud provider, where market prices and some randomness will dictate which of the providers will receive the GPU workload per transcode job to be done.
 
 Both clusters store their data in SIA storage via [S5](https://github.com/s5-dev/S5), from which video and audio are streamed. Whenever changes are made to the media player or transcoder code and pushed to their respective GitHub repositories, it initiates a chain reaction:
 
