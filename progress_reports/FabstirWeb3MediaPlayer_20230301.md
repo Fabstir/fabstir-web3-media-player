@@ -44,6 +44,8 @@ From there, the file will be uploaded to S5's endpoint using the TUS[^TUS] proto
 - The server code then successfully called the transcoder infrastructure to transcode the file to h264 1080p and 720p .mp4 formats.
 - Currently awaiting Rust code to enable uploading of the transcoded files to S5 for storage on SIA.
 
+I have started reaching out to cloud computing providers, and the reception has been positive. Notably, one provider has expressed interest in the integration of Web3 technology into their services, and to collaborate closely with Fabstir. More news to come.
+
 ## Glossary
 [^ArgoCD]: **ArgoCD:** ArgoCD is an open-source continuous delivery tool that helps automate the deployment of applications to Kubernetes clusters. It uses GitOps principles to synchronize the desired state of the deployed applications with the actual state in the cluster. With ArgoCD, users can define the desired state of their application in a Git repository, and ArgoCD will automatically deploy and manage the application to the target Kubernetes cluster. It provides a web-based user interface and a command-line interface for managing and monitoring the deployed applications.
 
