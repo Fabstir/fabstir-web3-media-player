@@ -35,7 +35,6 @@ The end-users do not realise that the dapp is split across different clusters an
 The transcoder is written in Rust, and it calls [ffmpeg](https://github.com/FFmpeg/FFmpeg), a C++ library, to perform the transcoding work. When the Rust server's `transcode` method is called with the file path to transcode, the job is added to a queue. Another thread picks up the job from the queue to call ffmpeg, and the transcoded file is then stored in a temporary directory on the pod.
 
 From there, the file will be uploaded to S5's endpoint using the TUS[^TUS] protocol, where it gets stored in SIA storage. For the successful test, an h264 file in .mp4 format was uploaded and transcoded to two resolutions: 1080p and 720p.
-> **Note** Currently, Redsolver, the author of S5, is writing the Rust code to enable files to be uploaded via the TUS protocol.
 
 ## Conclusion
 - Switched to Rust from C++ for the transcoder server code.
