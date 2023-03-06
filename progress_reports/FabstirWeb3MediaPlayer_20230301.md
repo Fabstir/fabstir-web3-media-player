@@ -41,9 +41,10 @@ From there, the file will be uploaded to S5's endpoint using the TUS[^TUS] proto
 - Set up local MiniKubes on my PC to test the media player/transcoder infrastructures.
 - Uploaded a video to the media player cluster successfully, which was then uploaded to S5 for storage on SIA.
 - The server code then successfully called the transcoder infrastructure to transcode the file to h264 1080p and 720p .mp4 formats.
-- Added authorization token functionality to the `tus_client` Rust native code, enabling Redsolver's code snippet to upload files with authorization.
+- Added authorisation token functionality to the `tus_client` Rust native code, enabling Redsolver's code snippet to upload files with authorisation.
 - Successfully tested the upload of transcoded videos to S5 for storage on SIA.
 - Checked that transcoded videos can be streamed successfully from SIA using S5's player.
+- Integrated Redsolver's S5 code into my test browser/server-side code and able to successfully play the transcoded footage in the browser.
 
 I have started reaching out to cloud computing providers, and the reception has been positive. Notably, one provider has expressed interest in the integration of Web3 technology into their services, and to collaborate closely with Fabstir. More news to come.
 
