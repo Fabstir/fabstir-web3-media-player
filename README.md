@@ -1,3 +1,4 @@
+
 # Fabstir Web3 Media Player
 
 If you are a film and music lover like I am then hopefully you will appreciate this player. It allows you to own content again, like in the days of physical media (remember CDs, Vinyl or Blu-rays)?
@@ -47,3 +48,10 @@ Fabstir's goal is to use Web3 technology to allow for a fairer society:
  - Cinemas have taken a hit since subscription platforms are focusing on their own productions that often bypass theatrical release entirely, as their goal is to attract more subscribers. Fabstir Web3 media player will make it easy for independent filmmakers to access directly digital cinemas and film festivals, using digital wallets to securely deliver the film to cinema projectors. Potentially skipping layers of intermediaries and opening a new market for cinemas to gain content that can be difficult to get hold of through traditional distribution channels.
 
 These are just some of the benefits Web3 can bring to the media industry that Fabstir aims to deliver.
+
+# Relevant Repos
+
+A [test video player  app](https://github.com/Fabstir/upload-play "The video player is a JavaScript test app. Allows users to upload videos to decentralised storage.") and [deployment files](https://github.com/Fabstir/upload-play-infra "Uses continuous integration and deployment") 
+A [test video transcoder server](https://github.com/Fabstir/transcode "Transcodes uploaded videos to 1080p and 720p h264 m4 formats to decentralised storage for playback by test video player.") and [deployment files](https://github.com/Fabstir/transcode-infra "Uses continuous integration and deployment")
+
+The repos use continuous integration and deployment to the cloud using GitHub Actions and Docker.
