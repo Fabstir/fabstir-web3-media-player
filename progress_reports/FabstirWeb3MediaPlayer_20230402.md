@@ -24,7 +24,7 @@ The test allows a wallet owner to add all their NFT addresses that they own into
 
 Initially I had a problem implementing this, but a MetaMask dev pointed out the error in my ways and now the test app is fully working.
 
-[3]. In terms of the proposed project timeline, both HLS format and MEG-DASH format that has yet not been tested as these formats are not as efficient on S5 as large contiguous files are that are already Blake3 encrypted anyway. This may be different of course when LumeWeb has available its content-addressable network. Tests so far have transcoded video to multiple bit rates and resolutions for successful storage and streaming of video files with the test player.
+[3]: In terms of the proposed project timeline, both HLS format and MEG-DASH format that has yet not been tested as these formats are not as efficient on S5 as large contiguous files are that are already Blake3 encrypted anyway. This may be different of course when LumeWeb has available its content-addressable network. Tests so far have transcoded video to multiple bit rates and resolutions for successful storage and streaming of video files with the test player.
 
 ## Link to Repos
 
