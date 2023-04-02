@@ -2,7 +2,12 @@
 # Fabstir Web3 Media Player - Progress Report (Mar 2023)
 By Jules Lai
 
-Over the past month, a cloud-based infrastructure and test MetaMask Snaps app have been developed. The infrastructure comprises two clusters for media playback and video transcoding, communicating via gRPC and utilising load balancing. Both clusters are hosted on Akamai, with multi-cloud support. The MetaMask app allows users to manage their NFT addresses within a secure environment, storing encrypted data locally and offering backup storage on SIA. Currently working on the production-ready Web3 video player with enhanced features.
+Over the past month, a cloud-based infrastructure and test MetaMask Snaps app have been
+developed. The infrastructure comprises two clusters for media playback and video transcoding,
+communicating via gRPC and utilising load balancing. Both clusters are hosted on Akamai, with
+multi-cloud support. The MetaMask app allows users to manage their NFT addresses within a
+secure environment, storing encrypted data locally and offering backup storage on SIA. Currently
+working on the production-ready Web3 video player with enhanced features.
 
 ## Past Month Progress
 
