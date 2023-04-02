@@ -52,7 +52,7 @@ These are just some of the benefits Web3 can bring to the media industry that Fa
 # Relevant Repos
 
 A [test video player  app](https://github.com/Fabstir/upload-play "The video player is a JavaScript test app. Allows users to upload videos to decentralised storage.") and [deployment files](https://github.com/Fabstir/upload-play-infra "Uses continuous integration and deployment") 
-A [test video transcoder server](https://github.com/Fabstir/transcode "Transcodes uploaded videos to 1080p and 720p h264 m4 formats to decentralised storage for playback by test video player.") and [deployment files](https://github.com/Fabstir/transcode-infra "Uses continuous integration and deployment")
+A [test video transcoder server](https://github.com/Fabstir/transcode "Transcodes uploaded videos to 1080p and 720p h264 m4 formats to decentralised storage for playback by test video player.") and [deployment files](https://github.com/Fabstir/transcode-infra "Uses continuous integration and deployment").
 A test [MetaMask Snaps application](https://github.com/julesl23/playlist-example, "Allows a wallet owner to add blockchain addresses into MetaMask Snaps's encrypted local storage")
 
 The repos use continuous integration and deployment to the cloud using GitHub Actions and Docker.
