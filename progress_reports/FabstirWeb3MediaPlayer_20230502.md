@@ -31,3 +31,4 @@ Further testing on the production-ready video player to ensure that `s5client-js
 Test playback of media NFTs on Polygon/Polygon zkEVM testnets with s5 for media streaming from SIA storage.
 Implement the MetaMask local storage of NFT addresses already working on a test player, to the production-ready player to be used as the source to populate a user's media gallery.
 Write code that will enable compatibility for media playback for NFTs from exchanges such as OpenSea and Rarible.
+There has been some marketing done as well in the form of posts and articles. Included in the road map is the upcoming Cannes Film Festival, where it is hoped to educate filmmakers on content ownership, security/privacy, community involvement and decentralisation.
