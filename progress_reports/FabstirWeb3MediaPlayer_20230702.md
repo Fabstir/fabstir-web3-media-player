@@ -20,8 +20,9 @@ Added this encryption feature for use in the production-ready video player that 
 
 ## Link to Repos
 
-You'll find these listed in the Fabstir Web3 Media Player repo here: https://github.com/Fabstir/fabstir-web3-media-player/blob/main/README.md
-https://github.com/Fabstir/s5client-js-1
+You'll find these listed in the Fabstir Web3 Media Player repo here:  
+<https://github.com/Fabstir/fabstir-web3-media-player/blob/main/README.md>  
+<https://github.com/Fabstir/s5-encryptWasm>  
 
 ## What I am Working on Next
 
