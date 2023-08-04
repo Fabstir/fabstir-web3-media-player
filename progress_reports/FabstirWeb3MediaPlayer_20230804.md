@@ -19,7 +19,7 @@ Note that each transcoded video format is described by a `label` property that c
 [3]: Added helper functions to [s5-encryptWasm](https://github.com/Fabstir/s5-encryptWasm) repo including `getKeyFromEncryptedCid` that can remove the key portion from an S5 CID that points to an encrypted file.
 
 [4]:  Work-in-progress (not complete) dapp Web3 media player to play video and music NFTs [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) whose media content is stored in S5. Uses [MetaMask Snaps](https://metamask.io/snaps/) to hold the key portion of the CID  in MetaMask wallet's sandboxed local storage whilst the rest of the CID (the portion without the key) is in the NFT's metadata publicly stored in S5, where the CID to this unencrypted metadata is stored on the blockchain. In order to get access to play the NFT's media, a user would need to unlock their MetaMask wallet first. Once that is done, the media player dapp can then use the wallet's Web3 API to access the key of the NFT's content. Combining this with the NFT's metadata that has the CID without the key, gives the full CID to the content stored on S5 that the dapp can now play.
-The gallery displays NFTs as tiles where their images are loaded lazily using Next.js <image> tag.
+The gallery displays NFTs as tiles where their images are loaded lazily using Next.js `<image>` tag.
 
 
 ## Link to Repos
