@@ -25,8 +25,9 @@ The gallery displays NFTs as tiles where their images are loaded lazily using Ne
 ## Link to Repos
 
 You'll find these listed in the Fabstir Web3 Media Player repo here: https://github.com/Fabstir/fabstir-web3-media-player/blob/main/README.md
- https://github.com/Fabstir/s5-encryptWasm
- https://github.com/Fabstir/media-player.git
+https://github.com/Fabstir/transcode
+https://github.com/Fabstir/s5-encryptWasm
+https://github.com/Fabstir/media-player.git
 
 ## What I am Working on Next
 
