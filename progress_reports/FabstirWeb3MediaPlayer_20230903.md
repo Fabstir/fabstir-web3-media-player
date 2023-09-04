@@ -1,4 +1,4 @@
-<h2>Fabstir Web3 Media Player - Progress Report (Sept 2023)<h2>
+<h2>Fabstir Web3 Media Player - Progress Report (Aug 2023)<h2>
 by Jules Lai
 
 <h4>What progress was made on your grant this month?<br>
