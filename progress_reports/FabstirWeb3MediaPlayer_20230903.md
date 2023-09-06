@@ -11,6 +11,7 @@ Links to repos worked on this month:
 - _[Fabstir_Media_Player_Snaps](https://github.com/Fabstir/Fabstir_Media_Player_Snaps/tree/main/packages/site)_
 - _[The snap base layer](https://github.com/Fabstir/Fabstir_Media_Player_Snaps/tree/main/packages/snap)_
 - _[Fabstir/transcode](https://github.com/Fabstir/transcode)_
+- _[julesl23/tus_client](https://github.com/julesl23/tus_client/tree/dev_1)_
 - _[long-form video NFTs](https://github.com/Fabstir/fabstir-web3-media-player/blob/main/other_reports/long-form_video_NFTs.md)_
 
 <h4>What will you be working on this month?<br>
