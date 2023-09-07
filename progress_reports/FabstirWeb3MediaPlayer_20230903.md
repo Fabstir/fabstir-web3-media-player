@@ -4,7 +4,7 @@ by Jules Lai
 <h4>What progress was made on your grant this month?<br>
 Please summarize your progress in 3-5 sentences or bullet points:</h4>
 
-_The Fabstir Media Player now works as a MetaMask Snaps extension using its secure vault environment to securely store details of NFT addresses, any encryption keys and video formats. The Next.js, React, Tailwind css decentralised application enables these NFTs to be displayed in a gallery, using advanced caching when loading NFT metadata from the blockchain, and will lazily load images from s5 (Sia) as they enter the viewport to speed up performance. Clicking on an NFT brings it up in a side panel where images are displayed in a larger format and any videos can be played and watched up to full-screen. Support for very long NFT videos up to 4K resolution, automatically transcoding for smooth playback from s5 (Sia) across a multitude of different devices._
+_The Fabstir Media Player now works as a MetaMask Snaps extension using its secure vault environment to securely store details of NFT addresses, any encryption keys, the video formats transcoded and their links. The Next.js, React, Tailwind css decentralised application enables these NFTs to be displayed in a gallery, using advanced caching when loading NFT metadata from the blockchain, and will lazily load images from s5 (Sia) as they enter the viewport to speed up performance. Clicking on an NFT brings it up in a side panel where images are displayed in a larger format and any videos can be played and watched up to full-screen. Support for very long NFT videos up to 4K resolution, automatically transcoding for smooth playback from s5 (Sia) across a multitude of different devices._
 
 Links to repos worked on this month:
 
