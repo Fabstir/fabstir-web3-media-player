@@ -28,3 +28,4 @@ https://github.com/Fabstir/fabstir-web3-media-player
 - For first real-world test, readying the launch of a short film platform using the Fabstir Media Player as the UI tool to the platform. Testing the integration.
 - Still outstanding is the graphical analytics module for creators and resellers. Not an issue right away as I can just read the numbers from the decentralised database and blockchain.
 - Contact the main creative industry body in UK and other experienced people for business advice to grow Fabstir.
+- Help guides and documentation for non-technical users.
