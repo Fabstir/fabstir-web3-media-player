@@ -3,7 +3,7 @@
 ### What progress was made on your grant this month?
 
 - Decentralised subscription model integration added to Fabstir Media Player, note most of the work is done in the Fabstir ecosystem itself
-- Wrote an article explaining Fabstir's new subscription model and presented to a film industry audience in London https://github.com/Fabstir/fabstir-web3-media-player/blob/main/other_reports/New%20economy%20for%20Enteratinment%20Industry%20202409.md
+- Wrote an article explaining Fabstir's new subscription model and presented to a film industry audience in London https://forum.web3.news/d/11-subscription-models-suck-and-here-is-a-solution
 - Established a small list of professional distributors with a good portfolio of feature films that will be among the first to use Fabstir Media Player after stability testing period.
 - Hired professional devops to deploy Fabstir Media Player so I can concentrate on the application and the business as my workload was too high. Est. 3-4 weeks to deployment for public invite availability.
 - Extensive colour customisation feature added and working in the player so businesses's can change the player's UI to use their brand colours. Will be added to `main` branch in repo shortly.
